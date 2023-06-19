@@ -15,36 +15,29 @@
                     <NuxtLink to="/contact">Anime</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/contact">License</NuxtLink>
+                    <NuxtLink to="/license">License</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/contact">About</NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink to="/contact">Contact</NuxtLink>
+                    <NuxtLink to="/login">About</NuxtLink>
                 </li>
             </ul>
-
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-mono font-bold py-2 px-2 rounded-full ">
-                Log In
+            <button
+                class="bg-transparent text-rose-400 font-mono font-bold py-2 px-4 my-8 mx-4 rounded-full border border-rose-400  ">
+                <NuxtLink to="/login">Log In</NuxtLink>
             </button>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-mono font-bold py-2 px-4 rounded-full ">
-                Sign Up
+            <button class="bg-rose-400 hover:bg-rose-500 text-white font-mono font-bold py-2 px-4 my-8 mx-4 rounded-full ">
+                <NuxtLink to="/register"> Sign Up </NuxtLink>
             </button>
-
-
         </div>
 
     </nav>
 </template>
-  
-  
+
   
 <script lang="ts">
 export default {
     name: 'Navbar',
 }
-
 </script>
 <style scoped>
 .router-link-active {

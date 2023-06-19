@@ -1,5 +1,5 @@
 <template>
-    <footer class="px-6 py-2 bg-pink-300 text-white">
+    <footer class="px-6 py-2 bg-pink-300 text-white w-full">
         <div class="flex flex-col justify-between items-center container mx-auto md:flex-row">
             <a class="text-2xl font-bold text-white" href="#">Yuri-ko</a>
             <p class="mt-2 md:mt-0">All rights reserved 2023.</p>
