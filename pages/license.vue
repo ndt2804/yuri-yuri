@@ -1,32 +1,14 @@
 <template>
-    <div class="mb-12 flex h-96 items-center justify-center">
-        <h2 class="text-3xl font-bold">Tổng hợp bản quyền</h2>
-    </div>
-    <div class="container mx-auto px-6">
-        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <div v-for="post in posts">
-                <li
-                    class="relative transform hover:scale-105 transition ease-in-out duration-500 rounded-2xl h-fit shadow-md bg-zinc-100 overflow-hidden  dark:bg-zinc-700 hover:shadow-lg">
-                    <a>
-                        <img class="relative h-full w-full object-cover object-top rounded-md shadow-lg" src="
-                    " />
-                        <div class="p-6 font-bold">
-
-                            <p>
-                                {{ post.name }}
-                            </p>
-                        </div>
-                    </a>
-                </li>
+    <div class="flex h-[80vh] my-10 items-center justify-center p-5 bg-white w-full">
+        <div class="text-center mb-40">
+            <div class="flex rounded-full">
+                <img src="~/public/assets/404.png" class="h-[40vh] mt-auto">
             </div>
-
-
-        </ul>
-
-
+            <h1 class="text-[36px] font-bold text-slate-800 lg:text-[50px] py-4 text-purple-400">Upcoming</h1>
+            <p class="text-slate-600  lg:text-lg text-pink-600	font-bold">Trang chủ đang trong quá trình phát triển
+                <br />mong bạn
+                ghé lại sau.
+            </p>
+        </div>
     </div>
 </template>
-<script setup>
-const { data: posts } = await useFetch('https://mihora.onrender.com/api/license', {
-})
-</script>
