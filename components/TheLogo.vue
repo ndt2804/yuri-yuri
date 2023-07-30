@@ -1,8 +1,18 @@
 <template>
-    <footer class="px-6 py-2 bg-gray-50 dark:bg-gray-900  w-full">
-        <div class="flex flex-col justify-between items-center container mx-auto md:flex-row">
-            <svg height="45" viewBox="0 0 401 130">
-                <defs id=" SvgjsDefs7228"></defs>
+    <div>
+        <NuxtLink to="/">
+            <svg height="45" viewBox="0 0 400.3636363636363 118.8" class="css-1j8o68f">
+                <defs id="SvgjsDefs7228"></defs>
+                <g id="SvgjsG7229" featurekey="symbolContainer" transform="matrix(0.9,0,0,0.9,0,0)" fill="#a6acec">
+                    <rect xmlns="http://www.w3.org/2000/svg" width="104" height="132" rx="10" ry="10"></rect>
+                </g>
+                <g id="SvgjsG7230" featurekey="monogramFeature-0"
+                    transform="matrix(2.142907495541852,0,0,2.142907495541852,8.573120872902965,-24.549646474647304)"
+                    fill="#ffffff">
+                    <path
+                        d="M30.853 44.036 c0.53959 -0.37119 2.323 17.009 1.7192 16.754 l-17.994 -2.8067 c-1.5877 0.34957 -3.83 0.15064 -4.1166 -0.7455 l-7.4568 -37.934 c-0.36545 -1.0214 17.084 -1.8883 16.822 -0.83574 l-2.93 30.808 z">
+                    </path>
+                </g>
                 <g id="SvgjsG7231" featurekey="nameFeature-0"
                     transform="matrix(1.892137622384165,0,0,1.892137622384165,110.74552323536474,6.2895906996150615)"
                     fill="#a56cc1">
@@ -11,9 +21,6 @@
                     </path>
                 </g>
             </svg>
-            <div class="flex -mx-2 mt-4 mb-2 md:mt-0 md:mb-0">
-                <p class="mt-2 md:mt-0">All rights reserved 2023.</p>
-            </div>
-        </div>
-    </footer>
+        </NuxtLink>
+    </div>
 </template>

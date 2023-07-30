@@ -1,38 +1,42 @@
 <template>
-    <nav id="navbar" class="relative z-10 w-full text-neutral-800 font-bold font-mono">
-        <div class="flex flex-row max-w-screen-xl px-6 mx-auto  py-3 space-x-4 xl:space-x-8 h-20 ">
-            <div class="py-3 text-2xl text-rose-400 space-x-8">
-                <NuxtLink to="/">Yuri-ko</NuxtLink>
+    <nav id="navbar" class="top-0 z-30 bg-gray-50 dark:bg-gray-900">
+        <div class="container mx-auto grid grid-cols-2 items-center px-6 py-3 lg:grid-cols-6">
+            <div class="flex items-center justify-start gap-3">
+                <TheLogo />
+                <!-- <img src="~/assets/logo.png" class="h-12"> -->
             </div>
-            <ul class="gap-3 flex flex-1 justify-center space-x-4 items-center">
+            <ul class="col-span-4 hidden items-center justify-center gap-3 lg:flex hidden md:flex md:gap-x-6">
                 <li>
-                    <NuxtLink to="/">HOME</NuxtLink>
+                    <NuxtLink to="/" class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">
+                        Home
+                    </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/manga">MANGA</NuxtLink>
+                    <NuxtLink to="/yuri"
+                        class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">Yuri
+                    </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/anime">ANIME</NuxtLink>
+                    <NuxtLink to="/manga"
+                        class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">Manga
+                    </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/license">LICENSE</NuxtLink>
+                    <NuxtLink to="/anime"
+                        class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">Anime
+                    </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/about">ABOUT</NuxtLink>
+                    <NuxtLink to="/license"
+                        class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">License
+                    </NuxtLink>
                 </li>
             </ul>
-            <button class="bg-transparent text-rose-400 py-2 px-4 my-2 rounded-full border border-rose-400 items-center ">
-                <NuxtLink to="/login">Log In</NuxtLink>
-            </button>
-            <button class="bg-rose-400 hover:bg-rose-500 text-white py-2 px-4 my-2 rounded-full ">
-                <NuxtLink to="/register"> Sign Up </NuxtLink>
-            </button>
         </div>
 
     </nav>
 </template>
 
-  
 <script lang="ts">
 export default {
     name: 'Navbar',
@@ -40,6 +44,7 @@ export default {
 </script>
 <style scoped>
 .router-link-active {
-    @apply font-bold;
+
+    font-family: Inter;
 }
 </style>
