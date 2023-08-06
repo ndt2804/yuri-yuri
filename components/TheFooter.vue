@@ -1,6 +1,6 @@
 <template>
     <footer class="px-6 py-2 bg-gray-50 dark:bg-gray-900  w-full">
-        <div class="flex flex-col justify-between items-center container mx-auto md:flex-row">
+        <div class="container flex flex-col justify-between items-center container mx-auto md:flex-row">
             <svg height="45" viewBox="0 0 401 130">
                 <defs id=" SvgjsDefs7228"></defs>
                 <g id="SvgjsG7231" featurekey="nameFeature-0"
