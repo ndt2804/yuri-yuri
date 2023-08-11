@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     "@nuxtjs/google-fonts",
-
+    "nuxt-swiper",
   ],
   googleFonts: {
     families: {
@@ -17,5 +17,8 @@ export default defineNuxtConfig({
         ital: [100]
       },
     }
-  }
+  },
+  swiper: {
+    modules: ["autoplay", "effect-creative"],
+  },
 })

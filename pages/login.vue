@@ -15,8 +15,6 @@
                         class="focus:ring-primary w-full rounded-xl border-none bg-zinc-300 transition-all focus:bg-zinc-100 focus:ring-2 dark:bg-zinc-600 focus:dark:bg-zinc-700"
                         type="password" placeholder="haneko" />
                 </div>
-
-
             </form>
             <button
                 class="bg-sky-500/50  rounded-xl py-2 px-3 mt-8 w-full flex justify-center text-gray-100 p-3  font-semibold"
