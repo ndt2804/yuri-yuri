@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
     <header class="relative gap-6">
         <div class="z-20 -mt-24 sm:mt-0">
             <div class="space-y-3">
@@ -45,17 +45,17 @@
         <div class="mt-6 flex flex-col-reverse gap-6 lg:flex-row">
             <div class="w-full flex-shrink-0 lg:w-64">
                 <div class="flex gap-3"><button type="button"
-                        class="bg-slate-400 focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 px-2.5 py-1.5 shadow-sm  dark:text-gray-900 bg-primary-500 hover:bg-primary-600 disabled:bg-primary-500 dark:bg-primary-400 dark:hover:bg-primary-500 dark:disabled:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 dark:focus-visible:outline-primary-400 w-full flex justify-center items-center flex-1"><!---->Theo
+                        class="bg-slate-400 focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 px-2.5 py-1.5 shadow-sm  dark:text-gray-900 bg-primary-500 hover:bg-primary-600 disabled:bg-primary-500 dark:bg-primary-400 dark:hover:bg-primary-500 dark:disabled:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 dark:focus-visible:outline-primary-400 w-full flex justify-center items-center flex-1">Theo
                         dõi</button><button type="button"
                         class=" bg-slate-400 focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 shadow-sm ring-1 ring-inset ring-gray-300 dark:ring-gray-700 text-gray-700 dark:text-gray-200 bg-gray-50 hover:bg-gray-100 disabled:bg-gray-50 dark:bg-gray-800 dark:hover:bg-gray-700/50 dark:disabled:bg-gray-800 focus-visible:ring-2 focus-visible:ring-primary-500  inline-flex items-center"><span
                             class="i-fluent-share-ios-20-regular flex-shrink-0 h-5 w-5" aria-hidden="true"></span></button>
                 </div>
-                <div data-v-d3a518a6="" data-v-c93e1c70="" class="data"><!---->
+                <div data-v-d3a518a6="" data-v-c93e1c70="" class="data">
                     <div data-v-d3a518a6="" class="data-set">
                         <div data-v-d3a518a6="" class="type">Format</div>
                         <div data-v-d3a518a6="" class="value">
                             TV
-                            <!---->
+                          
                         </div>
                     </div>
                     <div data-v-d3a518a6="" class="data-set">
@@ -67,7 +67,7 @@
                             Duration
                         </div>
                         <div data-v-d3a518a6="" class="value">24 mins</div>
-                    </div> <!----> <!---->
+                    </div> 
                     <div data-v-d3a518a6="" class="data-set">
                         <div data-v-d3a518a6="" class="type">Status</div>
                         <div data-v-d3a518a6="" class="value">Finished</div>
@@ -79,7 +79,7 @@
                     <div data-v-d3a518a6="" class="data-set">
                         <div data-v-d3a518a6="" class="type">End Date</div>
                         <div data-v-d3a518a6="" class="value">Dec 28, 2018</div>
-                    </div> <!---->
+                    </div>
                     <div data-v-d3a518a6="" class="data-set">
                         <div data-v-d3a518a6="" class="type">Season</div> <a data-v-d3a518a6=""
                             href="/search/anime?year=2018%25&amp;season=FALL" class="value">
@@ -107,7 +107,7 @@
                         <div data-v-d3a518a6="" class="value"><span data-v-d3a518a6=""><a data-v-d3a518a6=""
                                     href="/studio/6068/TROYCA" class="">
                                     TROYCA
-                                </a> <!----></span></div>
+                                </a></span></div>
                     </div>
                     <div data-v-d3a518a6="" class="data-set data-list">
                         <div data-v-d3a518a6="" class="type">Producers</div>
@@ -118,7 +118,7 @@
                                 data-v-d3a518a6=""><a data-v-d3a518a6="" href="/studio/352/Kadokawa-Pictures-Japan"
                                     class="">Kadokawa Pictures Japan</a><br data-v-d3a518a6=""></span><span
                                 data-v-d3a518a6=""><a data-v-d3a518a6="" href="/studio/376/Sentai-Filmworks" class="">Sentai
-                                    Filmworks</a><!----></span></div>
+                                    Filmworks</a></span></div>
                     </div>
                     <div data-v-d3a518a6="" class="data-set">
                         <div data-v-d3a518a6="" class="type">Source</div>
@@ -137,7 +137,7 @@
                                 data-v-d3a518a6=""><a data-v-d3a518a6="" href="/search/anime/Romance"
                                     class="">Romance</a><br data-v-d3a518a6=""></span><span data-v-d3a518a6=""><a
                                     data-v-d3a518a6="" href="/search/anime/Slice of Life" class="">Slice of
-                                    Life</a><!----></span></div>
+                                    Life</a></span></div>
                     </div>
                     <div data-v-d3a518a6="" class="data-set">
                         <div data-v-d3a518a6="" class="type">Romaji</div>
@@ -155,7 +155,7 @@
                         <div data-v-d3a518a6="" class="type">Synonyms</div>
                         <div data-v-d3a518a6="" class="value"><span data-v-d3a518a6="">
                                 YagaKimi<br data-v-d3a518a6=""></span><span data-v-d3a518a6="">
-                                สุดท้ายก็คือเธอ<!----></span></div>
+                                สุดท้ายก็คือเธอ</span></div>
                     </div>
                 </div>
             </div>
@@ -686,11 +686,11 @@
                                 <div class="relative overflow-x-auto">
                                     <table class="min-w-full table-fixed divide-y divide-gray-300 dark:divide-gray-700">
                                         <thead class="">
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <th scope="col"
                                                     class="text-left rtl:text-right px-3 py-3.5 text-gray-900 dark:text-white font-semibold text-sm whitespace-nowrap w-0">
                                                     <button type="button"
-                                                        class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center -m-1.5"><!----><span
+                                                        class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center -m-1.5"><span
                                                             class="">Tập</span><span
                                                             class="i-heroicons-arrows-up-down-20-solid flex-shrink-0 h-5 w-5"
                                                             aria-hidden="true"></span></button>
@@ -702,7 +702,7 @@
                                                 <th scope="col"
                                                     class="text-left rtl:text-right px-3 py-3.5 text-gray-900 dark:text-white font-semibold text-sm whitespace-nowrap w-0">
                                                     <button type="button"
-                                                        class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center -m-1.5"><!----><span
+                                                        class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center -m-1.5"><span
                                                             class="">Phiên bản</span><span
                                                             class="i-heroicons-arrows-up-down-20-solid flex-shrink-0 h-5 w-5"
                                                             aria-hidden="true"></span></button>
@@ -710,7 +710,7 @@
                                                 <th scope="col"
                                                     class="text-left rtl:text-right px-3 py-3.5 text-gray-900 dark:text-white font-semibold text-sm whitespace-nowrap w-0">
                                                     <button type="button"
-                                                        class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center -m-1.5"><!----><span
+                                                        class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center -m-1.5"><span
                                                             class="">Ngày phát hành</span><span
                                                             class="i-heroicons-arrows-up-down-20-solid flex-shrink-0 h-5 w-5"
                                                             aria-hidden="true"></span></button>
@@ -726,7 +726,7 @@
                                             </tr>
                                         </thead>
                                         <tbody class="divide-y divide-gray-200 dark:divide-gray-800">
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     1</td>
@@ -749,18 +749,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     1</td>
@@ -786,18 +786,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     1</td>
@@ -823,18 +823,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     2</td>
@@ -857,18 +857,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     2</td>
@@ -894,18 +894,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     3</td>
@@ -928,18 +928,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     3</td>
@@ -965,18 +965,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     4</td>
@@ -999,18 +999,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     4</td>
@@ -1036,18 +1036,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     5</td>
@@ -1070,18 +1070,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     5</td>
@@ -1107,18 +1107,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     6</td>
@@ -1141,18 +1141,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     6</td>
@@ -1178,18 +1178,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     7</td>
@@ -1212,18 +1212,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     7</td>
@@ -1249,18 +1249,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     8</td>
@@ -1283,18 +1283,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     8</td>
@@ -1320,18 +1320,18 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
-                                            <tr class=""><!---->
+                                            <tr class="">
                                                 <td
                                                     class="whitespace-nowrap lg:whitespace-normal px-3 py-4 text-gray-500 dark:text-gray-400 text-sm">
                                                     8</td>
@@ -1357,15 +1357,15 @@
                                                     <div class="text-right"><button type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-add-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-white hover:bg-gray-50 dark:hover:bg-gray-800 focus-visible:ring-inset focus-visible:ring-2 focus-visible:ring-primary-500 dark:focus-visible:ring-primary-400 inline-flex items-center"><span
                                                                 class="i-fluent-edit-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button><button
+                                                                aria-hidden="true"></span></button><button
                                                             type="button"
                                                             class="focus:outline-none focus-visible:outline-0 disabled:cursor-not-allowed disabled:opacity-75 flex-shrink-0 font-medium rounded-md text-sm gap-x-1.5 p-1.5 text-red-500 dark:text-red-400 hover:bg-red-50 disabled:bg-transparent dark:hover:bg-red-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-red-500 dark:focus-visible:ring-red-400 inline-flex items-center"><span
                                                                 class="i-fluent-delete-20-filled flex-shrink-0 h-5 w-5"
-                                                                aria-hidden="true"></span><!----><!----></button></div>
+                                                                aria-hidden="true"></span></button></div>
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -1535,7 +1535,7 @@
                 <div class="w-1/3 flex-shrink-0 snap-start scroll-ml-6 sm:w-full">
                     <div
                         class="rounded-md h-fit shadow-md bg-gray-200 overflow-hidden relative dark:bg-gray-800 hover:shadow-lg transition-shadow duration-150 ease-linear">
-                        <!----><img
+                       <img
                             src="https://image.tana.moe/unsafe/154x0/filters:quality(90)/0l473ttmx8o31i9/v76e77x82kbdcp1/dem_va_bien_tap_1_CmubsnWXZe.png"
                             loading="lazy" data-nuxt-img="" sizes="(max-width: 640px) 40vw, 20vw"
                             srcset="https://image.tana.moe/unsafe/256x0/filters:quality(90)/0l473ttmx8o31i9/v76e77x82kbdcp1/dem_va_bien_tap_1_CmubsnWXZe.png 256w, https://image.tana.moe/unsafe/154x0/filters:quality(90)/0l473ttmx8o31i9/v76e77x82kbdcp1/dem_va_bien_tap_1_CmubsnWXZe.png 154w"
@@ -1552,7 +1552,7 @@
                 <div class="w-1/3 flex-shrink-0 snap-start scroll-ml-6 sm:w-full">
                     <div
                         class="rounded-md h-fit shadow-md bg-gray-200 overflow-hidden relative dark:bg-gray-800 hover:shadow-lg transition-shadow duration-150 ease-linear">
-                        <!----><img
+                        <img
                             src="https://image.tana.moe/unsafe/154x0/filters:quality(90)/0l473ttmx8o31i9/6ev1h703hrzi7x1/overlord_tap_7_0aIHgTIyTp.jpg"
                             loading="lazy" data-nuxt-img="" sizes="(max-width: 640px) 40vw, 20vw"
                             srcset="https://image.tana.moe/unsafe/256x0/filters:quality(90)/0l473ttmx8o31i9/6ev1h703hrzi7x1/overlord_tap_7_0aIHgTIyTp.jpg 256w, https://image.tana.moe/unsafe/154x0/filters:quality(90)/0l473ttmx8o31i9/6ev1h703hrzi7x1/overlord_tap_7_0aIHgTIyTp.jpg 154w"
@@ -1569,7 +1569,6 @@
                 <div class="w-1/3 flex-shrink-0 snap-start scroll-ml-6 sm:w-full mr-6 sm:mr-0">
                     <div
                         class="rounded-md h-fit shadow-md bg-gray-200 overflow-hidden relative dark:bg-gray-800 hover:shadow-lg transition-shadow duration-150 ease-linear">
-                        <!---->
                         <div
                             class="flex h-full w-full items-center justify-center text-center bg-gray-200 text-gray-500 dark:bg-gray-800 dark:text-gray-400 font-condensed font-bold p-6 aspect-[2/3]">
                             Mỹ vị hầm ngục - Tập 9</div>
@@ -1584,6 +1583,20 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+</template> -->
+<template>
+    <div class="flex h-[80vh] my-10 items-center justify-center p-5 bg-white w-full">
+        <div class="text-center mb-40">
+            <div class="flex rounded-full">
+                <img src="~/assets/404.png" class="h-[40vh] mt-auto">
+            </div>
+            <h1 class="text-[36px] font-bold text-slate-800 lg:text-[50px] py-4 text-purple-400">Upcoming</h1>
+            <p class="text-slate-600  lg:text-lg text-pink-600	font-bold">Trang chủ đang trong quá trình phát triển
+                <br />mong bạn
+                ghé lại sau.
+            </p>
         </div>
     </div>
 </template>
