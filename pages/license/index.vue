@@ -45,7 +45,7 @@
                 </div>
                 <div
                     class="flex-1 snap-x snap-mandatory gap-6 overflow-x-scroll sm:grid sm:grid-cols-3 sm:overflow-x-hidden sm:px-6 md:grid-cols-5">
-                    <div v-for="license in  data" :key="license.id"
+                    <div v-for="license in  licenses" :key="license.id"
                         class="w-1/3 flex-shrink-0 snap-start scroll-ml-6 sm:w-full">
                         <a :href="'/license/' + license.slug">
                             <div
@@ -73,14 +73,7 @@
     </div>
 </template>
 <script setup lang="ts">
-interface License {
-    id: number;
-    name: string;
-    publisher: string;
-    category: string;
-    created_at: string;
-    image_li: string;
-    slug: string;
-}
-const { pending, data, error } = await useFetch<License[]>('http://165.22.106.18:1020/api/v1/license');
+const client = useSupabaseClient()
+const { data: licenses } = await useAsyncData('license', async () =>
+    client.from('license').select('id, name, publisher, category, created_at, image_li, slug').order('created_at'), { transform: result => result.data })
 </script>

@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-[80vh] my-10 items-center justify-center p-5 bg-white w-full">
+    <!-- <div class="flex h-[80vh] my-10 items-center justify-center p-5 bg-white w-full">
         <div class="text-center mb-40">
             <div class="flex rounded-full">
                 <img src="~/assets/404.png" class="h-[40vh] mt-auto">
@@ -10,5 +10,15 @@
                 ghé lại sau.
             </p>
         </div>
-    </div>
+    </div> -->
+    <LazyHeroTheHero />
+    <LazyCategoriesTheCategories />
+    <LazyThe3 />
+    <LazyTheAbout />
+    <!-- <img src="~assets/kv2.webp" class="mx-auto h-[100vh]" /> -->
+    <img src="~assets/koi.png" class="container mx-auto w-full" />
+    <!-- <TheCover class="container mx-auto w-full" /> /> -->
+    <LazyTheHuongDan />
+
+    <LazyTheSubbrice />
 </template>
