@@ -2,10 +2,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxtjs/tailwindcss',
+    "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",
     "nuxt-swiper",
+    '@nuxtjs/supabase',
   ],
+  supabase: {
+    redirect: false
+  },
   googleFonts: {
     families: {
       Inter: [400, 700],
@@ -21,4 +25,5 @@ export default defineNuxtConfig({
   swiper: {
     modules: ["autoplay", "effect-creative"],
   },
+
 })
