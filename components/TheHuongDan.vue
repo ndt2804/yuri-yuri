@@ -1,58 +1,27 @@
 <template>
-    <div class="mb-40">
-
-        <div class="md:w-[658px] mb-5 mx-auto">
-            <p class="text-center text-[#FC881D] font-title font-semibold">TERUS GIMANA?</p>
-            <p class="font-title font-bold text-center text-4xl py-6 md:px-0 px-2">
-                Terus Ngapain Dong Kalo Nggak Ada Insight Apapun?
-            </p>
-            <p class="text-center font-title font-normal md:px-0 px-6">
-                Ya nggak tau, salah sendiri lu ngapain ke website ini. Tapi ada tiga kemungkinan kenapa lo bisa ada di
-                website ini. Ketiga kemungkinan itu akan gwej jabarkan di bawah ini dengan ilustrasinya hehehe.
-            </p>
-        </div>
-        <div class="flex flex-wrap justify-evenly container mx-auto mt-20">
-
-            <div class="w-[93vw] md:w-[380px] xl:mt-0 mt-7 hover:scale-105 transition-all duration-300">
-                <div class=" bg-gray-200 rounded-xl">
-                    <img src="~assets/404.png" class="mx-auto py-14">
-                </div>
-                <p class="font-title font-semibold text-xl py-4">Kamu Tidak Punya Kekasih</p>
-                <p class="font-title font-normal text-zinc-400">
-                    Sudah pasti orang yang tidak punya kekasih akan memiliki waktu luang yang banyak, jadi ya lo iseng aja
-                    gitu datang ke website ini.
-                </p>
+    <section class="container mx-auto pt-10 bg-gray-100 sm:pt-16 lg:pt-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl lg:leading-tight">Real humans
+                    are here to help you building your brand</h2>
+                <p class="mt-6 text-lg text-gray-900">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                    sint.</p>
+                <a href="#" title=""
+                    class="inline-flex items-center justify-center px-6 py-4 mt-12 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md hover:bg-blue-700 focus:bg-blue-700"
+                    role="button">
+                    <svg class="w-5 h-5 mr-2 -ml-1" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+                    </svg>
+                    Contact our support
+                </a>
             </div>
-
-            <div class="w-[93vw] md:w-[380px] xl:mt-0 mt-7 hover:scale-105 transition-all duration-300">
-                <div class=" bg-gray-200 rounded-xl">
-                    <img src="~assets/404.png" class="mx-auto py-14">
-                </div>
-                <p class="font-title font-semibold text-xl py-4">Lo Wibu Autid</p>
-                <p class="font-title font-normal text-zinc-400">
-                    Iyh bener, biasanya wibu kalo nggak halu waifu suka iseng nggak jelas, termasuk mengunjungi website ini
-                    tanpa alasan yang jelas hehehe.
-                </p>
-            </div>
-
-            <div class="w-[93vw] md:w-[380px] xl:mt-0 mt-7 hover:scale-105 transition-all duration-300">
-                <div class=" bg-gray-200 rounded-xl">
-                    <img src="~assets/404.png" class="mx-auto py-14">
-                </div>
-                <p class="font-title font-semibold text-xl py-4">Kok Gambar Ayam?</p>
-                <p class="font-title font-normal text-zinc-400">
-                    Lah ngatur. Nggak tau lagi gwej alasan yang ketiga, biar bagus aja desainnya. Kalo cuman dua jadinya
-                    nggak bagus hehe.
-                </p>
-            </div>
-
         </div>
 
-    </div>
+        <div class="container mx-auto 2xl:px-12">
+            <img class="w-full mt-6"
+                src="https://cdn.rareblocks.xyz/collection/celebration/images/team/4/group-of-people.png" alt="" />
+        </div>
+    </section>
 </template>
-  
-<script>
-export default {
-
-}
-</script>

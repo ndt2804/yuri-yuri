@@ -16,16 +16,7 @@
                         class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">Yuri
                     </NuxtLink>
                 </li>
-                <li>
-                    <NuxtLink to="/manga"
-                        class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">Manga
-                    </NuxtLink>
-                </li>
-                <li>
-                    <NuxtLink to="/anime"
-                        class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">Anime
-                    </NuxtLink>
-                </li>
+
                 <li>
                     <NuxtLink to="/license"
                         class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">License

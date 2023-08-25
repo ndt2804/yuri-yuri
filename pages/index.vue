@@ -15,10 +15,12 @@
     <LazyCategoriesTheCategories />
     <LazyThe3 />
     <LazyTheAbout />
+    <LazyThePartner />
     <!-- <img src="~assets/kv2.webp" class="mx-auto h-[100vh]" /> -->
     <img src="~assets/koi.png" class="container mx-auto w-full" />
     <!-- <TheCover class="container mx-auto w-full" /> /> -->
+    <LazyTheBlog />
+    <LazyTheQuestion />
     <LazyTheHuongDan />
-
     <LazyTheSubbrice />
 </template>
