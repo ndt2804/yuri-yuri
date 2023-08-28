@@ -4,7 +4,7 @@
         <section class="grid grid-cols-1 md:grid-cols-2 items-center  sm:p-10 my-2">
             <div class="space-y-3">
                 <p class="uppercase font-poppins text-sm text-[#DF6951] font-bold">
-                    The best news aggregator
+                    Cộng đồng thông tin Yuri
                 </p>
                 <div class="font-volkhov font-bold text-5xl md:text-6xl lg:text-8xl text-[#181E4B]">
                     <div class="flex space-x-3">

@@ -1,26 +1,10 @@
 <template>
-    <!-- <div class="flex h-[80vh] my-10 items-center justify-center p-5 bg-white w-full">
-        <div class="text-center mb-40">
-            <div class="flex rounded-full">
-                <img src="~/assets/404.png" class="h-[40vh] mt-auto">
-            </div>
-            <h1 class="text-[36px] font-bold text-slate-800 lg:text-[50px] py-4 text-purple-400">Upcoming</h1>
-            <p class="text-slate-600  lg:text-lg text-pink-600	font-bold">Trang chủ đang trong quá trình phát triển
-                <br />mong bạn
-                ghé lại sau.
-            </p>
-        </div>
-    </div> -->
-    <LazyHeroTheHero />
-    <LazyCategoriesTheCategories />
-    <LazyThe3 />
-    <LazyTheAbout />
-    <LazyThePartner />
-    <!-- <img src="~assets/kv2.webp" class="mx-auto h-[100vh]" /> -->
-    <img src="~assets/koi.png" class="container mx-auto w-full" />
-    <!-- <TheCover class="container mx-auto w-full" /> /> -->
-    <LazyTheBlog />
-    <LazyTheQuestion />
-    <LazyTheHuongDan />
-    <LazyTheSubbrice />
+    <div class="">
+        <LazyHeroTheHero />
+        <LazyTheAbout />
+        <img src="~assets/koi.png" class="container mx-auto w-full" />
+        <LazyTheBlog />
+        <TheDisclosure />
+        <LazyTheSubbrice />
+    </div>
 </template>
