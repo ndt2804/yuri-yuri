@@ -4,7 +4,7 @@
             <h1 class="container px-6 text-center text-4xl font-bold">Thông tin bản quyền</h1>
         </div>
 
-        <div class="container flex flex-wrap justify-items items-center justify-between align-middle space-y-1 mx-auto">
+        <div class="container flex flex-wrap justify-items items-center justify-between space-y-1 mx-auto">
             <div>
 
             </div>
@@ -19,12 +19,11 @@
                                     type="button">
                                     Chưa lọc được :(
                                 </button>
-
                             </div>
                         </form>
                     </div>
                 </div>
-                <div>
+                <div class="">
                     <div
                         class="flex items-center flex-1 snap-x snap-mandatory gap-6 overflow-x-scroll  sm:overflow-x-hidden sm:px-6 pb-5 font-lexend text-2xl font-bold  underline  decoration-[.2rem] underline-offset-[.2rem]">
                         <label for="voice-search" class="sr-only">Search</label>
@@ -37,19 +36,14 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <input v-model="searchKeyword" type="text" id="search"
+                            <input v-model="query" type="text" id="search"
                                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                                 placeholder="Search  License ..." required>
-                            <button @click="searchProducts" type="button"
-                                class="absolute inset-y-0 right-0 flex items-center pr-3  bg-gray-200 border border-gray-300 text-gray-900 pl-4 rounded-lg ">
-                                Search
-                            </button>
                         </div>
                     </div>
-                    <div class="flex-1	 snap-x snap-mandatory gap-6 overflow-x-scroll sm:grid sm:grid-cols-2 sm:overflow-x-hidden sm:px-6 md:grid-cols-5"
+                    <div class="flex-1 snap-x snap-mandatory gap-6 overflow-x-scroll sm:grid sm:grid-cols-2 sm:overflow-x-hidden sm:px-6 md:grid-cols-5"
                         ref="scroll">
-
-                        <div v-for="license in  paginatedData" :key="license.id"
+                        <div v-for="license in  data" :key="license.id"
                             class="w-1/3 flex-shrink-0 snap-start scroll-ml-6 sm:w-full">
                             <a :href="'/license/' + license.slug">
                                 <div
@@ -71,16 +65,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="mt-1"><span class="block text-zinc-500 dark:text-zinc-400 font-black">{{
-                                    license.category
-                                }}</span>
-                                </div>
+
                             </a>
                         </div>
-
                     </div>
                     <div class=" flex justify-center items-center mx-auto pb-5 py-5  ">
-                        <button @click="prevPage"
+                        <button
                             class="flex items-center justify-center px-4 h-10 mr-3 text-base font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                             <svg class="w-3.5 h-3.5 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                                 viewBox="0 0 14 10">
@@ -89,7 +79,7 @@
                             </svg>
                             Previous
                         </button>
-                        <button @click="nextPage"
+                        <button
                             class="flex items-center justify-center px-4 h-10 text-base font-medium text-gray-500 bg-white border border-gray-300 rounded-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
                             Next
                             <svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -108,83 +98,30 @@
 
     </div>
 </template>
-<script >
-export default {
-    setup() {
-        const client = useSupabaseClient();
-        const listData = ref([]);
-        const size = 10;
-        const pageNumber = ref(0);
-        let pageNumberCount = 0;
-        const searchKeyword = ref('');
+<script setup lang="ts">
+import { Filter } from 'types/supabase';
 
-        onMounted(() => {
-            loadData();
-        });
-        watch(searchKeyword, (newValue) => {
-            if (newValue === '') {
-                loadData();
-            }
-        });
-        const loadData = async () => {
-            let query = client.from('license').select('id, name, publisher, category, created_at, image_li, slug');
+const client = useSupabaseClient();
+const query = ref<string>("");
+const filter = ref<Filter>();
+const loading = ref(false);
+const currentPage = ref(1); // Thêm biến currentPage ở đây
 
-            if (searchKeyword.value) {
-                query = query.ilike('name', `%${searchKeyword.value}%`);
-            }
 
-            const { data: licenses, error } = await query.order('created_at');
-            if (error) {
-                console.error('Error fetching data:', error);
-            } else {
-                listData.value = licenses;
-                pageNumberCount = pageCount();
-            }
-        };
-        const searchProducts = () => {
-            pageNumber.value = 0;
-            loadData();
-        };
-        const nextPage = () => {
-            if (pageNumber.value < pageNumberCount - 1) {
-                pageNumber.value++;
-                console.log('Next page:', pageNumber.value);
-            }
-        };
 
-        const prevPage = () => {
-            if (pageNumber.value > 0) {
-                pageNumber.value--;
-                console.log('Previous page:', pageNumber.value);
-            }
-        };
+const { data, error } = await useAsyncData(async () => {
+    loading.value = true;
+    const { data, error } = await client.from('license').select('id, name, publisher, category, created_at, image_li, slug')
+        .ilike('name', `%${query.value}%`);
+    if (error) throw new Error("An error occurred while fetching data.");
+    loading.value = false;
+    return data
+}, {
+    watch: [query, filter, currentPage]
+});
 
-        const pageCount = () => {
-            const l = listData.value.length;
-            return Math.ceil(l / size);
-        };
-
-        const paginatedData = computed(() => {
-            const start = pageNumber.value * size;
-            const end = start + size;
-            return listData.value.slice(start, end);
-        });
-
-        return {
-            listData,
-            size,
-            pageNumber,
-            loadData,
-            nextPage,
-            prevPage,
-            pageCount,
-            paginatedData,
-            searchKeyword,
-            searchProducts,
-        };
-    },
-};
 </script>
+
 
 
 

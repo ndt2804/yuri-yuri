@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-headlessui',
     'nuxt-icon',
+    "@pinia/nuxt",
   ],
   supabase: {
     redirect: false
