@@ -99,7 +99,7 @@
     </div>
 </template>
 <script setup lang="ts">
-import { Filter } from 'types/supabase';
+import { Filter } from '~/types/supabase';
 
 const client = useSupabaseClient();
 const query = ref<string>("");
