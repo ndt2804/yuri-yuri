@@ -5,7 +5,7 @@
                 <TheLogo />
                 <!-- <img src="~/assets/logo.png" class="h-12"> -->
             </div>
-            <ul class="col-span-4 hidden items-center justify-center gap-3 lg:flex hidden md:flex md:gap-x-6">
+            <ul class="col-span-4 hidden items-center justify-center gap-3 lg:flex md:flex md:gap-x-6">
                 <li>
                     <NuxtLink to="/" class="rounded-lg px-3 py-2 transition-all hover:bg-zinc-200 hover:dark:bg-zinc-700">
                         Home

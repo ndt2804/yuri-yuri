@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     "@nuxtjs/google-fonts",
     "nuxt-swiper",
     '@nuxtjs/supabase',
+    '@nuxt/image',
+    'nuxt-headlessui',
+    'nuxt-icon',
+    "@pinia/nuxt",
   ],
   supabase: {
     redirect: false
