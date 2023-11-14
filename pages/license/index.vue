@@ -99,11 +99,9 @@
     </div>
 </template>
 <script setup lang="ts">
-import { Filter } from '~/types/supabase';
 
 const client = useSupabaseClient();
 const query = ref<string>("");
-const filter = ref<Filter>();
 const loading = ref(false);
 const currentPage = ref(1); // Thêm biến currentPage ở đây
 
@@ -117,7 +115,7 @@ const { data, error } = await useAsyncData(async () => {
     loading.value = false;
     return data
 }, {
-    watch: [query, filter, currentPage]
+    watch: [query, currentPage]
 });
 
 </script>

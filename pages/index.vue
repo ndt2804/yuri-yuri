@@ -1,8 +1,12 @@
 <template>
     <div class="">
+
         <LazyHeroTheHero />
+
         <LazyTheAbout />
-        <img src="~assets/koi.png" class="container mx-auto w-full" />
+        <TheCharacter />
+
+        <img src="~assets/koi.png" class="container mx-auto w-full mt-20" />
         <LazyTheBlog />
         <TheDisclosure />
         <LazyTheSubbrice />

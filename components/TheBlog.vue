@@ -53,8 +53,7 @@
                 <div>
                     <a href="#" title="" class="block aspect-w-4 aspect-h-3">
                         <img class="object-cover w-full h-full"
-                            src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/366304164_302645875618239_2046677292003308684_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=EO4LaPu8c78AX9Y0b3q&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfABBdIKj7054WXrS5IozuWqXkAPSEaN6DAN-pEzz_c9eA&oe=64F18490"
-                            alt="" />
+                            src="https://static.zerochan.net/Watashi.no.Oshi.wa.Akuyaku.Reijou..full.2928837.jpg" alt="" />
                     </a>
                     <span
                         class="inline-flex px-4 py-2 text-xs font-semibold tracking-widest uppercase rounded-full text-sky-500 bg-sky-100 mt-9">
